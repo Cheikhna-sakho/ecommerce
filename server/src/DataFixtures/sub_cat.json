@@ -1,0 +1,73 @@
+[
+    {
+        "categories": "Composants PC",
+        "sub_cat": [
+            "Cartes graphiques",
+            "Stockage",
+            "Processeur",
+            "Mémoire",
+            "Carte mère",
+            "Raspberry",
+            "Alimentation",
+            "Boitier PC",
+            "Accessoires boitier PC",
+            "Kit upgrade PC",
+            "Refroidissement PC",
+            "Montage et installation PC",
+            "Carte réseau",
+            "Carte son",
+            "Montage et acquisition vidéo"
+        ]
+    },
+    {
+        "categories": "PC et ordinateur",
+        "sub_cat": [
+            "Ordinateur de bureau",
+            "Ordinateur portable",
+            "Tablette tactile",
+            "OS et Logiciel"
+        ]
+    },
+    {
+        "categories": "Périphérique PC",
+        "sub_cat": [
+            "Écran ordinateur",
+            "Clavier et souris",
+            "Stockage externe",
+            "Casque micro",
+            "Réalité virtuelle",
+            "Webcam",
+            "Streaming",
+            "Fauteuil / siège gamer",
+            "Bureau gamer",
+            "Enceinte PC",
+            "Musique assistée par ordinateur",
+            "Scanner",
+            "Tablette graphique",
+            "Manette de jeu",
+            "Simulation automobile",
+            "Simulation vol",
+            "Onduleur de prise parafoudre",
+            "Accessoires périphériques PC",
+            "Connecteur Bluetooth",
+            "Esport"
+        ]
+    },
+    {
+        "categories": "Image et son",
+        "sub_cat": [
+            "Télévision",
+            "Box TV multimédia",
+            "Vidéoprojection",
+            "Hifi / Home cinéma",
+            "Audio nomade",
+            "Photo / Caméra",
+            "Télévision",
+            "Box TV multimédia",
+            "Vidéoprojection",
+            "Hifi / Home cinéma",
+            "Audio nomade",
+            "Photo / Caméra"
+        ]
+    }
+]

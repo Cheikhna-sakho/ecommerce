@@ -1,0 +1,5 @@
+# Authorization  header
+
+RewriteCond %{HTTP:Authorization} ^(.*)
+
+RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]

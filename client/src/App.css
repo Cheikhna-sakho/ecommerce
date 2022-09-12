@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Manrope:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+
+.image{
+    background: url('../src/assets/produit.jpg') no-repeat;
+    background-size: contain;
+    width: 50%;
+}
+.guest {
+    display: grid;
+    grid-auto-columns: max-content;
+}
+
+.flex.w-screen.h-screen.identity {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.info{
+    display: flex;
+}
+
+.recherche{
+    display: flex;
+}
+
+.container-fluid{
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+}
+
+.deroulant{
+    display: none;
+}
+
+.panier{
+    position: relative;
+}
+
+.panier:hover .deroulant{
+    background: white;
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    z-index: 99;
+    display: grid;
+    height: 400px;
+    width: 400px;
+    padding: 1rem;
+}
+
+
+/* Carousel de la page details de l'article */
+
+.carousel{
+    font-family: "Georgia, Helvetica Neue",Helvetica,Arial;
+    width: 50%;
+    display: flex;
+}
+
+.details-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.details-description{
+    text-align: justify;
+}
+
+.details-caracteristic{
+    text-align: justify;
+}
+
+/* Partis commentaire details article */
+
+.comment{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.textarea{
+    width: 100%;
+
+}
+
+
+
+.commentLabel{
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Caroussel des meilleures vente */
+
+.descriptionPopularity{
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.imgPopularity{
+    width: 50%;
+
+}
+
+.prixPopularity{
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
+    
+.fake-white{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+
+
+/* STYLING DU SELECT */
+
+.select{
+    padding: 8px 12px;
+    color: #333333;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.select:focus, 
+.select:hover{
+    outline: none;
+    border: 1px solid #bbbbbb;
+}
+
+.select option{
+    background: #ffffff;
+}
+
+
+.checkbox{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 23px;
+    justify-items: end;
+} 
+
+.sub-label{
+    margin-right: 10px;
+}
+
+/* Footer global */
+
+.globalFooter{
+    background-color: #eee;
+    margin-top: 50px;
+}
+
+
+
+/* Footer info */
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    padding: 32px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.sectionFooter{
+    display: block;
+    line-height: 44px;
+    padding-left: 16px;
+    text-decoration: none;
+    letter-spacing: .4px;
+
+}
+
+.titleFooter{
+    text-transform: uppercase;
+    font-family: "Manrope";
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: .875rem;
+}
+
+.optionsFooter{
+    font-family:"Manrope";
+    line-height: 30px;
+    color: #666;
+    letter-spacing: .4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/* Footer Copy */
+.footerCopy{
+    font-size: .75rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background-color: #ddd;
+    color:#666;
+}
+
+.copy{
+    display: flex;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.copyList{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+.list{
+    display: inline-block;
+    position: relative;
+    padding-right: 1em;
+}
+
+.list::after{
+    content: "|";
+    display: inline;
+    position: absolute;
+    right: 3px;
+}
+
+.mvc{
+    line-height: 50px;
+}
+
+/*Commentaires article */
+
+.card{
+    width: 70%;
+    background-color: rgba(191, 188, 188, 0.244);
+}
+
+.card-title{
+    font-weight: bold;
+    color: #333;
+}
+
+.card-subtitle{
+    font-style: italic;
+    font-size: 13px;
+}
