@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use Exception;
+
 use App\Entity\Categories;
 use App\Controller\ResponseController;
 use App\Repository\CategoriesRepository;

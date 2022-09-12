@@ -35,8 +35,8 @@ export const getUserConnect = () => API.get("/api/connect");
 // products
 export const getProducts = () => API.get("/api/articles");
 export const getProductsId = (id) => API.get(`/api/articles/${id}`);
-export const updateProducts = (id, formData) => API.patch(`/articles/update/${id}`, formData);
-export const deleteProducts = (id) => API.delete(`/api/articles/delete/${id}`);
+export const updateProducts = (id, formData) => API.patch(`/articles/${id}`, formData);
+export const deleteProducts = (id) => API.delete(`/api/articles/${id}`);
 export const updateStock = (id) => API.patch(`/api/articles/stock/${id}`);
 
 //Categorie

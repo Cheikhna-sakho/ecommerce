@@ -26,7 +26,6 @@ class ResponseController extends AbstractController
         $this->normalize = $normalize;
         $this->validator = $validator;
         $this->userRepository = $userRepository;
-        // $this->request = $request;
     }
     public function succesRequest()
     {

@@ -39,7 +39,7 @@ class ImagesController extends ResponseController
         }
     }
 
-    #[Route('/add/{id}', name: 'app_image_add', methods: "POST", requirements: ["id" => "\d+"])]
+    #[Route('/{id}', name: 'app_image_add', methods: "POST", requirements: ["id" => "\d+"])]
     function add_(Articles $article = null, Request $request)
     {
         $allFile = $request->files->all();
@@ -92,7 +92,7 @@ class ImagesController extends ResponseController
         return $this->succesPost("Images enregistrer");
     }
 
-    #[Route('/delete/{id}', name: 'app_image_delete', methods: "DELETE", requirements: ["id" => "\d+"])]
+    #[Route('/{id}', name: 'app_image_delete', methods: "DELETE", requirements: ["id" => "\d+"])]
     function delete_(Images $image = null)
     {
         return $this->removeData($image);

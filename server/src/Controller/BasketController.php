@@ -5,7 +5,6 @@ namespace App\Controller;
 use App\Entity\Articles;
 use App\Controller\ResponseController;
 use App\Repository\UserRepository;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Serializer\Exception\NotEncodableValueException;

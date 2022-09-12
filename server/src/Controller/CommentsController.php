@@ -5,8 +5,6 @@ namespace App\Controller;
 use App\Entity\Articles;
 use App\Entity\Comments;
 use App\Repository\CommentsRepository;
-use DateTime;
-use DateTimeImmutable;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
@@ -32,7 +30,6 @@ class CommentsController extends ResponseController
             if (!$this->valDif($article) || !$this->valDif($user)) {
                 return $this->notFoundRequest("Vous devez avoir un compte pour poster un commentaire !");
             }
-            // dd($request->getContent());
             $comment =$this->serializer->deserialize($request->getContent(), Comments::class, 'json');
             $comment->setArticle($article)
             ->setUser($this->getUserEntity($user))
